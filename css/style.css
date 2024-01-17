@@ -1,0 +1,639 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  scroll-snap-destination: 50% 0%; /* Cambia estos valores según tus preferencias */
+  scroll-snap-points-y: repeat(10px); /* Cambia esto para ajustar la suavidad */
+}
+
+.logo-image	{
+    width: 21px;
+    height: 21px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+
+.navbar_Cuenca-image  {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+}
+
+.navbar__logo {
+    margin-right: auto;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__menu-options {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.navbar__menu-option {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+.navbar_Cuenca img {
+    margin-right: 5px;
+}
+.navbar_Cuenca {
+    display: none;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    height: 75px;
+    box-shadow: 0 300px 100px rgba(0,0,0,.1);
+}
+
+.navbar_Cuenca {
+    color: #7FA661;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar__logo {
+    color: #7FA661;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.navbar__menu-icon {
+    fill: #000000;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.navbar__menu-options {
+    display: none;
+    
+}
+
+.navbar__menu-option {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.slides-wrapper {
+    display: flex;
+    transition: transform 1s ease-in-out; 
+}
+
+.slide {
+    flex: 0 0 100%; 
+}
+
+.slide-navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.slide-navigation button {
+    background: none;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: white; /* Establece el color blanco para las flechas */
+    cursor: pointer;
+    outline: none;
+    padding: 20px;
+}
+
+.slideimage {
+    width: 100%;
+    height: 750px;
+}
+
+
+
+.content__title {
+    text-align: center;
+    font-size: 40px;
+    color: #445A14;
+    margin-top: 120px;
+
+}
+
+.content__description {
+    text-align: center;
+    color: #373737;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 75px;
+
+}
+.container {
+    background-color: #F1F1F1;
+    width: 75%;
+    margin: 0 auto;    
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.mini-container {
+    text-align: center;
+    margin: 30px;
+}
+
+.mini-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.mini-container h2 {
+    color: #445A14;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.mini-container p {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.main_contacto{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+#nuevo_apartado {
+    text-align: center;
+}
+.Ubicacion {
+    margin-top: 200px;
+    height: 1100px;
+
+}
+.Puntos {
+    color: #445A14;
+    font-size: 50px;
+
+}
+.subtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    color: #26330B;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.imagen {
+    position: relative;
+    margin-top: 20px;
+}
+.Map1 {
+    width: 1000px;
+    height: auto;
+    padding-bottom: 60px;
+
+}
+.botones {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.izquierda {
+    margin-top: 200px;
+    margin-right: auto;
+
+}
+.medio {
+    margin-top: 100px;
+    width: auto;
+}
+.derecha {
+    margin-bottom: 70px;
+    margin-left: auto;
+}
+
+.main_contacto {
+    background-color: #ffffff;
+}                      
+.formulario {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+.texto1_1{
+    font-weight: 900;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+
+.texto2_2{
+    color: #373737;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.campo {
+    margin: 10px 0;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 80%;
+    background-color: #e0e0e0;
+}
+
+.boton {
+    background-color: #7FA661;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.texto2{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4B5563;
+
+}
+
+.campo3{
+    margin: 10px 0;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 80%;
+    background-color: #e0e0e0;
+    height: 150px;
+    margin-bottom: 70px;
+}
+
+footer {
+    border-top: 1px solid white; 
+    background-color: #1B1D20;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: left;
+}
+
+.nombre_footer{
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.nombre {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.redes-sociales img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.redes-sociales a {
+    text-decoration: none; 
+}
+
+.redes-socialess a {
+    text-decoration: none; 
+}
+
+@media (min-width: 768px) {
+
+
+
+.navbar__menu-options {
+     display: flex;
+}
+
+.navbar__menu-options a {
+
+    color: #7FA661;
+    padding: 20px;
+    font-weight: 600;
+
+}
+.navbar__menu-option {
+    transition: text-decoration 0.3s ease;
+}
+
+.navbar__menu-option:hover {
+    text-decoration: underline;
+}
+
+.navbar__menu-icon {
+    display: none; 
+}
+
+.imagenl {
+    max-width: 110px;
+    max-height: 110px;
+}
+
+.texto1_1{
+    color: #445A14;
+    font-weight: 700;
+    font-size: 70px;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.texto2_2{
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: #4B5563;
+    padding-bottom: 50px;
+}
+
+.formulario{
+    width: 60%;
+    margin: 0 auto;    
+}
+.contenedor_redes{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre_footer{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.navbar_Cuenca {
+    display: flex;
+    align-items: center;
+}
+
+}
+
+@media (max-width: 767px) {
+
+    .navbar {
+        padding: 5px;
+    }
+
+    .slideimage {
+        width: 100%;
+        height: 250px;
+    }
+
+    .slide-navigation button {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    
+.content__title {
+    font-size: 20px;
+    margin-top: 70px;
+
+}
+
+.content__description {
+    font-size: 15px;
+    margin-top: 40px;
+    padding: 10px;
+    margin-bottom: 75px;
+
+}
+.container {
+    width: 80%;
+    height: 1050px;
+    margin-bottom: 50px;
+
+
+}
+
+.Ubicacion {
+    margin-top: 100px;
+    height: 400px;
+
+}
+.Puntos {
+    font-size: 27px;
+
+}
+.subtitulo {
+    margin-top: 25px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.imagen {
+    margin-top: 10px;
+}
+.Map1 {
+    width: 330px;
+    height: auto;
+    padding-bottom: 40px;
+
+}
+.botones {
+    top: 50%;
+    left: 33%;
+    width: 48%;
+}
+.ubih {
+    width: 25px; /* Modifica el ancho del SVG */
+    height: 25px; /* Modifica la altura del SVG */
+}
+.izquierda {
+    margin-top: 40px;
+    margin-right: auto;
+
+
+}
+.medio {
+    margin-top: 10px;
+    width: auto;
+}
+.derecha {
+    margin-bottom: 60px;
+    margin-left: auto;
+}
+
+.formulario {
+    padding: 10px;
+    width: 100%;
+    padding-bottom: 80px;
+    padding-top: 00px;
+}
+
+.texto1_1{
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 25px;
+    color: #445A14;
+}
+
+
+.texto2_2{
+    font-size: 12px;
+}
+
+.icono1 {
+    width: 20px;
+    height: 20px;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.mini-container h2 {
+    color: #445A14;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.mini-container p {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.navbar__menu-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Agrega las siguientes reglas a tu archivo de estilo */
+
+.navbar__menu-options {
+    left: -2px;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    flex-direction: column;
+    top: 60px; /* Ajusta según la altura de tu barra de navegación */
+    width: 101%;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 2; /* Ajusta según sea necesario para que esté por encima de la imagen */
+    animation: slideDown 0.5s ease-out;
+
+  }
+  
+  .navbar__menu-options.active {
+    display: flex;
+    
+  }
+  
+  .navbar__menu-option {
+    color: #7FA661;
+    text-decoration: underline;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0;
+    
+  }
+  
+  .navbar__menu-option:hover {
+    color: #555; /* Cambia el color al pasar el ratón si lo deseas */
+  }
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+  
+}             

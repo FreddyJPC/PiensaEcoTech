@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecotech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Josefin+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar__logo">
+            <span class="navbar__logo-text">EcoTech</span>
+            <img src="css/images/recycle.svg" alt="Logo EcoTech" class="logo-image">
+        </div>
+        <div class="navbar__menu">
+            <svg class="navbar__menu-icon" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+        </div>
+        <div class="navbar__menu-options">
+            <a href="#seccion1" class="navbar__menu-option">Nosotros</a>
+            <a href="#nuevo_apartado" class="navbar__menu-option">Ubicación</a>
+            <a href="#seccion3" class="navbar__menu-option">Contáctame</a>
+        </div>
+        <div class="navbar_Cuenca">
+            <img src="css/images/locationtitle.svg" alt="Icono1" class="navbar_Cuenca-image">
+            <h3>Cuenca</h3>
+        </div>
+    </div>
+    </header>
+
+    <div class="slider-container">
+        <div class="slides-wrapper">
+            <div class="slide">
+                <img src="css/images/s1.jpg" alt="Slide 1" class="slideimage">
+            </div>
+            <div class="slide">
+                <img src="css/images/s2.jpg" alt="Slide 2" class="slideimage">
+            </div>
+            <div class="slide">
+                <img src="css/images/s3.jpg" alt="Slide 3" class="slideimage">
+            </div>
+        </div>
+        
+        <div class="slide-navigation">
+            <button id="prevButton">&lt;</button>
+            <button id="nextButton">&gt;</button>
+        </div>
+    </div>
+
+    <div id="seccion1" class="content">
+        <h1 class="content__title">BIENVENIDOS AL SITIO WEB OFICIAL<br> DE RECICLAJE DE RESIDUOS TECNOLOGICOS<br> EN CUENCA</h1>
+        <p class="content__description">Somos una plataforma web comprometida con la difusión de información sobre el reciclaje <br>
+            de residuos tecnológicos en Cuenca, contribuyendo así a la construcción de una ciudad y<br> un mundo más limpio.</p>
+    </div>
+</body>
+</html>
+<div class="container">
+    <div class="mini-container">
+        <img src="css/images/sub1.svg" alt="Imagen 1">
+        <h2 class="subtitle1">Reducción de Residuos Tóxicos</h2>
+        <p>El reciclaje adecuado evita que estos elementos contaminen el medio ambiente y afecten la salud humana, ya que los componentes peligrosos se eliminan </p>
+    </div>
+    <div class="mini-container">
+        <img src="css/images/sub2.svg" alt="Imagen 2">
+        <h2 class="subtitle1" >Reducción de la Contaminación Atmosférica</h2>
+        <p>La incineración incorrecta de residuos tecnológicos libera sustancias químicas tóxicas en la atmósfera. El reciclaje adecuado evita esta práctica, contribuyendo a la mejora de la calidad del aire</p>
+    </div>
+    <div class="mini-container">
+        <img src="css/images/sub3.svg" alt="Imagen 3">
+        <h2 class="subtitle1" >Reaprovechamiento de Materias Primas</h2>
+        <p> El reciclaje de residuos tecnológicos consiste en desmontar y procesar dispositivos electrónicos para recuperar materiales valiosos como oro, plata, cobre y aluminio.</p>
+    </div>
+</div>
+
+<section id="nuevo_apartado" class="Ubicacion">
+    <h2 class="Puntos">PUNTOS DE RECICLAJE</h2>
+    <div class="subtitulo">
+        <img src="css/images/locationtitle.svg" alt="Icono1" class="icono1">
+        <h3>CUENCA</h3>
+    </div>
+    <div class="imagen">
+        <img src="css/images/Map.png" alt="Imagen" class="Map1">
+        <div class="botones">
+            <a href="https://maps.app.goo.gl/qV51dHui98HBDjdm6" class="izquierda"><img class="ubih" src="css/images/locationicon.svg" alt="Botón Izquierda"></a>
+            <a href="https://maps.app.goo.gl/4otcBdQFDCGKsZHdA" class="medio"><img class="ubih" src="css/images/locationicon.svg" alt="Botón Medio" ></a>
+            <a href="https://maps.app.goo.gl/jo3mqEoJxcAHF7Wa9" class="derecha"><img class="ubih" src="css/images/locationicon.svg" alt="Botón Derecha" ></a>
+        </div>
+    </div>
+</section>
+
+
+<section id="seccion3" class="main_contacto">
+
+    <div class="formulario">
+            <p class="texto1_1">CONTACTANOS</p>
+   
+
+        <div class="texto2_2">Mandanos un mensaje!</div>
+        <form action="https://formsubmit.co/freddyjavier556@gmail.com" method="POST">
+            <input type="text" class="campo" name="nombre" placeholder="Nombre Completo" required>
+            <input type="email" class="campo" name="email" placeholder="Email" required>
+            <input type="text" class="campo3" name="mensaje" placeholder="Hola..." required><br>
+            <button type="submit" class="boton">ENVIAR</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+
+    <div class="contenedor_redes">
+        <div class="nombre_footer">EcoTech</div>
+        <div class="redes-socialess">
+            <a href="https://www.instagram.com/freddy_paguay10/" target="_blank">
+                <img src="css/images/ig.svg" alt="Instagram">
+            </a>
+            </a>
+        </div>
+    </div>
+
+
+</footer>
+
