@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: poppins;
 
 }
 
@@ -15,11 +15,25 @@ html {
   scroll-snap-destination: 50% 0%; /* Cambia estos valores según tus preferencias */
   scroll-snap-points-y: repeat(10px); /* Cambia esto para ajustar la suavidad */
 }
+#seccion4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Esto es opcional para centrar verticalmente */
+    margin-left: 20px;
+    margin-right: 20px;
+    
 
+}
+
+.aprendemas {
+    text-align: center;
+}
 .logo-image	{
     width: 21px;
     height: 21px;
 }
+
 
 .navbar {
     display: flex;
@@ -214,7 +228,7 @@ html {
 }
 .Ubicacion {
     margin-top: 200px;
-    height: 1100px;
+    height: 1000px;
 
 }
 .Puntos {
@@ -313,6 +327,11 @@ html {
     border-radius: 25px;
     padding: 10px 20px;
     cursor: pointer;
+}
+.boton {
+    font-family: poppins;
+    font-weight: 400;
+
 }
 
 .texto2{
@@ -536,7 +555,7 @@ footer {
 }
 
 .texto1_1{
-    font-weight: 900;
+    font-weight: 700;
     font-size: 30px;
     padding-bottom: 25px;
     color: #445A14;

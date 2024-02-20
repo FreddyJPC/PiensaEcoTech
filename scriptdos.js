@@ -1,3 +1,24 @@
+document.addEventListener('DOMContentLoaded', function () {
+    var botonesRevelar = document.querySelectorAll('.revelar-componente');
+    var contenidoReveladoSeccion = document.getElementById('contenido-revelado-seccion');
+    var imagenRevelada = document.getElementById('imagen-revelada');
+
+    botonesRevelar.forEach(function (boton, indice) {
+        boton.addEventListener('click', function () {
+            var carta = this.closest('.carta');
+            var imagenCarta = carta.querySelector('.contenido-revelado img').src;
+            imagenRevelada.src = imagenCarta;
+            contenidoReveladoSeccion.classList.add('mostrar');
+        });
+    });
+
+    contenidoReveladoSeccion.addEventListener('click', function (evento) {
+        if (evento.target === contenidoReveladoSeccion) {
+            contenidoReveladoSeccion.classList.remove('mostrar');
+        }
+    });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     let currentSlide = 0;
     const slidesWrapper = document.querySelector('.slides-wrapper');
@@ -49,15 +70,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  document.addEventListener("DOMContentLoaded", function() {
-    // Seleccionar el botón por su clase
-    var botonAprendamos = document.querySelector(".boton");
-
-    // Agregar un evento de clic al botón
-    botonAprendamos.addEventListener("click", function() {
-        // Redirigir a la página "aprende.html"
-        window.location.href = "aprende.html";
-    });
-});
 
 
